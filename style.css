@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg.jpeg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.new{
+	background: url(ab.jpg) no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0, .5);
+
+	height: 100vh;
+}
+.new1{
+	background: url(mp.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color:white;
+	border-color: black;
+	font-size: 85px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	padding-bottom: 35%;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: red;
+	background: pink;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+button{
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: pink;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+
+.buttons button:hover{
+	background:white;
+}
+input[type=submit]{
+	background-color: rgb(37, 116, 161);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: auto;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+}
+body{
+
+	line-height: 0;
+	background-color: rgba(0,0,0, .5);
+}
+h1{
+	font-size: 85px;
+
+	padding-bottom:10px;
+	line-height: auto;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+
+	font-family: 'Bangers', cursive;
+	padding-bottom: 35%;
+}
+.donate1{
+	font-size: 85px;
+	background-color: rgba(0,0,0, .5);
+	color: #fff;
+	padding-bottom:10px;
+	padding-right: 0px;
+	line-height: 1.1;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+
+	font-family: 'Bangers', cursive;
+	padding-bottom: 35%;
+}
+.form{
+
+	margin-bottom: 0;
+
+}
+.form1{
+	padding-bottom: 0px;
+	padding-top: 5px;
+	padding: 10%;
+	background-color: rgba(0,0,0, .5);
+	color: #fff;
+}
+a{
+	font-size: 2rem;
+}
+.do{
+	color: white;
+	font-family: 'Bangers', cursive;
+	font-size: 3rem;
+}
+.feed{
+	color: white;
+	font-family: 'Bangers', cursive;
+	font-size: 3rem;
+}
